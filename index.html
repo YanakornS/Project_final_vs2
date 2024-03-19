@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping_POD</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body class="">
+    <div class="container">
+      <img src="image/หมี.png" class="bear-image" alt="Bear Image" />
+
+      <header>
+        <h1>Shopping POD</h1>
+        <div class="shopping">
+          <img src="image/Shoppingcard.png" />
+          <span class="quantity">0</span>
+        </div>
+      </header>
+
+      <div class="list"></div>
+    </div>
+    <div class="card">
+      <h1>Card</h1>
+      <ul class="listCard" id="listCard">
+        
+
+       
+      </ul>
+     
+      <div class="checkOut" id="checkOut">
+         <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+        <button id="save-pdf">Save as PDF</button>
+        <button onclick="clearCart()">Clear Cart</button>
+      </div>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
